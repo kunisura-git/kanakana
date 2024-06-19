@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1 {
+    color: #1E90FF;
+}
+
+h2 {
+    color: #1E90FF;
+}
+
+a {
+    color: #000000;
+    padding: 15px;
+    border: #ffffff;
+    border-radius: 10px;
+}
+
+a:hover {
+    opacity: 0.5;
+    box-shadow: none;
+}
+
+nav a {
+    background-color: #afeeee;
+    text-decoration: none;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.7)
+}
+.box0{background-color: #afeeee;
+    border: 3px dotted #0cb0e0;
+    margin-bottom: 100px;}
+
+.box1 {
+    background-color: #afeeee;
+    border: 3px dotted #0cb0e0;
+    margin-bottom: 100px;
+}
+
+.box2 {
+    background-color: #afeeee;
+    border: 3px dotted #0cb0e0;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.box3 {
+    background-color: #afeeee;
+    border: 3px dotted #0cb0e0;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.box4 {
+    background-color: #afeeee;
+    border: 3px dotted #0cb0e0;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.box5 {
+    background-color: #afeeee;
+    border: 3px dotted #0cb0e0;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.box6 {
+    background-color: #afeeee;
+    border: 3px dotted #0cb0e0;
+    margin-bottom: 100px;
+    display: flex;
+}
+
+.fly {
+    width: 600px;
+}
+
+header {
+    height: 500px;
+    background-image: url("roblox.png");
+    margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color: #0cb0e0;
+}
+
+.dog {
+    width: 60px;
+    transform: translateX(100%);
+    animation: left_right 2s linear infinite alternate;
+}
+
+@keyframes left_right {
+    0% {
+        transform: translateX(-100px);
+    }
+
+    100% {
+        transform: translateX(100px);
+    }
+
+}
